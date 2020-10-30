@@ -1,12 +1,19 @@
 import React from "react";
-import './index.css';
-import logo from './IMG/logo.png';
+import { BrowserRouter, Route } from "react-router-dom";
+import './App.css';
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
-        <img src={logo}/>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Navbar />
+        <Route path component='Profile'/>
+      </div>
+    </BrowserRouter>
+    
   )
 }
 

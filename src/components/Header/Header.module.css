@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    margin:.5%;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    justify-content: center;
+    border: none;
+}
+
+img.logo {
+    width: 3.124450951683748%;
+}
